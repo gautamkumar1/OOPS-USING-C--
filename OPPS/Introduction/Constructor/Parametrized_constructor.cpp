@@ -14,5 +14,7 @@ class student{
 
 int main(){
     student gautam(141);
+    student*g = new student(208);
     cout<<gautam.roll<<endl;
+    cout<<g->roll<<endl;
 }

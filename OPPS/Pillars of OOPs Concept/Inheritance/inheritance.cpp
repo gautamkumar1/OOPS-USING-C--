@@ -1,5 +1,5 @@
 /*
-syntax: class_name:access_modifier parebtclassName;
+syntax: class_name:access_modifier parentclassName;
 */
 #include<iostream>
 using namespace std;
