@@ -13,7 +13,7 @@ int main(){
     gautam.name = "Gautam Kumar";
     gautam.roll = 101;
     cout<<"Name is "<<gautam.name<<endl;
-    cout<<"Roll Number is "<<gautam.roll<<endl;
+    cout<<"Roll Number is "<<gautam.roll<<endl; 
     student *ankush = new student; // dynamically allocation
     // delcaring using arrow operater
     ankush->name = "Ankush Kumar";
