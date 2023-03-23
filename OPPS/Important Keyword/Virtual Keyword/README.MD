@@ -35,6 +35,7 @@ class D : public B, public C {
 }; 
 
 --------------------------> REAL LIFE EXAMPLE ----------------->
+---------------------------------------------------------------------------------------------------------------------------------------
 A real-life example of virtual functions can be found in a banking application that provides different types of accounts, such as savings accounts, checking accounts, and investment accounts. Each type of account may have different interest rates, fees, and transaction limits.
 
 In this scenario, we can define a base class called Account that contains common functionality, such as depositing and withdrawing funds. We can also define a virtual method called calculateInterest() in the Account class, which calculates the interest earned on the account balance.
